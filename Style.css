@@ -1,0 +1,35 @@
+nav{
+    text-align: right;
+    text-decoration-color: black;
+}
+
+h1{
+    background-color: white;
+    padding: 40px;
+    font-size: 50pt;
+    text-align: left;
+}
+
+body{
+    background-color: rgb(173, 198, 230);
+}
+
+p{
+    background-color: white;
+    display:inline-block;
+    width: 1000px;
+    padding: 75px;  
+    font-size: 20pt;
+    align:top;
+    border-left: 20px;
+}
+
+img{
+    padding: 20px;
+    width: 600px;
+    text-align: right;
+    float:right;
+    align:top;
+    margin-left: 20px;
+    
+}

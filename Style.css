@@ -10,6 +10,33 @@ h1{
     text-align: left;
 }
 
+h2{
+    background-color: white;
+    padding: 75px;  
+    font-size: 30pt;
+    align:top;
+    text-align: center;
+}
+
+h3{ 
+    background-color: white;
+    display:inline-block;
+    width: 1000px;
+    padding: 75px;  
+    font-size: 20pt;
+    align:top;
+    border-left: 20px;}
+
+h4{ 
+    background-color: white;
+    display:inline-block;
+    width: 1000px;
+    padding: 75px;  
+    font-size: 20pt;
+    align:top;
+    border-left: 20px;
+    float: right;}
+
 body{
     background-color: rgb(173, 198, 230);
 }
@@ -18,6 +45,7 @@ p{
     background-color: white;
     display:inline-block;
     width: 1000px;
+    height: 500px;
     padding: 75px;  
     font-size: 20pt;
     align:top;
@@ -25,11 +53,38 @@ p{
 }
 
 img{
+    display:inline-block;
     padding: 20px;
     width: 600px;
-    text-align: right;
-    float:right;
+    float: right;
     align:top;
-    margin-left: 20px;
-    
+    margin-left: 20px;  
+}
+
+h5{   
+    background-color: white;
+    display:inline-block;
+    width: 1000px;
+    padding: 75px;  
+    font-size: 20pt;
+    align:top;
+    border-left: 20px;
+    float: left;
+}
+
+h6{
+    background-color: white;
+    display:inline-block;
+    width: 1000px;
+    padding: 75px;  
+    font-size: 20pt;
+    align:top;
+    border-left: 20px;
+    float: right;
+}
+
+<a class="hover">click</a>
+
+submit .hover :hover{
+    text-decoration:underline;
 }
